@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora repudiandae ipsam quae quia! Facere itaque quia perspiciatis quas incidunt tempore nobis suscipit animi eos mollitia recusandae voluptas, soluta possimus pariatur?</p>
+
+    <ul>
+        <li><a href="pag-extras/pagina-001.html" target="frame">Primeira página</a></li>
+        <li><a href="pag-extras/pagina-002.html" target="frame">Segunda página</a></li>
+        <li><a href="pag-extras/pagina-003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias sit eos esse. Ipsam numquam magnam quidem corporis perferendis aperiam, nemo quia praesentium dignissimos maxime labore odio ratione enim animi cum?</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, exercitationem, amet similique sapiente laborum architecto in eum adipisci facere debitis, optio eos labore. Quas, eaque error. Quis dolores aliquid minus.</p><img src='imagens/imagemcomfontesdiferentes.webp'>">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit maiores, perferendis sapiente facere accusamus omnis vitae, sed, eum obcaecati beatae iste. Numquam suscipit dolor praesentium aliquid. Magni iure nobis officiis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nemo et illo, itaque ut sequi eligendi. Commodi assumenda labore excepturi! Voluptatum commodi animi deserunt cum officiis facere, ea assumenda culpa.</p>
+</body>
+</html>

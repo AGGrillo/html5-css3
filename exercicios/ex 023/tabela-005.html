@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            background-color: blue;
+            color: white;
+            text-align: center;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            border-top: 1px solid black;
+            border-right: 1px solid black;
+            border-left: 1px solid black;
+            padding: 8px;
+            background-color: lightpink;
+        }
+
+        tr.cabeca {
+            background-color: lightgray;
+        }
+
+        tr.destaque {
+            background: chartreuse;
+        }
+
+        col.cnome {
+            background-color: lightblue;
+        }
+
+        col.csexo {
+            background-color: peru;
+        }
+
+        col.cidade {
+            background-color: aquamarine;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        footer > p {
+            background-color: yellow;
+            font-weight: bolder;
+            text-align: center;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade" span="2">
+            <col class="cprof">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+        <tr class="cabeca">
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Paulo Gomes</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Carpinteiro</td>
+        </tr>
+        <tr>
+            <td>Sophie Silveira</td>
+            <td>F</td>
+            <td>28</td>
+            <td>Cabeleireira</td>
+        </tr>
+        <tr class="destaque">
+            <td>Rafaella Mattos</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Manicura e Pedicura</td>
+        </tr>
+        <tr>
+            <td>José Marques</td>
+            <td>M</td>
+            <td>38</td>
+            <td>Vendedor</td>
+        </tr>
+        <tr class="destaque">
+            <td>Vanessa de Ávila</td>
+            <td>F</td>
+            <td>31</td>
+            <td>Dentista</td>
+        </tr>
+    </table>
+</body>
+<footer>
+    <p>Desenvolvido por AL Desenvolvimento Web</p>
+</footer>
+</html>
