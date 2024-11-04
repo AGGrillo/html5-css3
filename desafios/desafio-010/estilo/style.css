@@ -27,8 +27,8 @@
 }
 
 body {
-    background-color: var(--cor0);
     font-family: var(--fonte-padrao);
+    background-color: var(--cor0);
 }
 
 a.externo::after {
@@ -37,15 +37,13 @@ a.externo::after {
 
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
-    width: 100%;
-    text-align: center;
     padding-top: 40px;
 }
 
 header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
-    font-size: 3em;
+    font-size: 60px;
     font-weight: normal;
     padding-bottom: 20px;
     text-shadow: 8px 8px 4px rgba(0, 0, 0, 0.514);
@@ -54,7 +52,7 @@ header > h1 {
 
 header > p {
     font-family: var(--fonte-padrao);
-    font-size: 1.2em;
+    font-size: 30px;
     color: white;
     padding-right: 10px;
     padding-left: 10px;
