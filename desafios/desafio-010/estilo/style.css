@@ -48,7 +48,7 @@ header > h1 {
     font-family: var(--fonte-destaque);
     font-size: 45px;
     font-weight: normal;
-    text-shadow: 8px 8px 4px rgba(0, 0, 0, 0.514);
+    text-shadow: 8px 8px 4px rgba(0, 0, 0, 0.555);
 }
 
 header > p {
@@ -135,7 +135,7 @@ main a:hover {
 }
 
 main img {
-    width: 100%;
+    width: 50%;
 }
 
 main img.pequena {
