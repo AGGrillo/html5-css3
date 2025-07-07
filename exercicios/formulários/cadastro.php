@@ -1,2 +1,2 @@
-Este é o arquivo de envio.
-Você deve programá-lo em outra lingUagem que não o HTML.
+-Os dados foram enviados!
+-Aprenda PHP para saber o que fazer com eles.
