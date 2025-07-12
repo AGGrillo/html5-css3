@@ -63,8 +63,9 @@ Grandes telas: acima de 1200px
     }
 
     body::after {
-        content: 'Essa impressão foi feita através do site www.cursoemvideeo.com';
+        content: 'Essa impressão foi feita através do site "www.cursoemvideeo.com".';
         text-decoration: overline;
+        margin-left: 36px;
     }
 
     main {
